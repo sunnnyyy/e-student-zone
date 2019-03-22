@@ -1,0 +1,15 @@
+.main-navigation .round-border-topright {width:10px; height:10px; position:absolute; z-index:100; margin:0 0 0 190px; backgroun:durl(../img/bg_corner_topright.gif) no-repeat;}  
+
+.main-navigation {display:inline /*Fix IE floating margin bug*/; float:left; width:200px; overflow:visible !important /*Firefox*/; overflow:hidden /*IE6*/; background:rgb(245,245,245);}
+
+.main-navigation h1.first {clear:both; margin:0px; padding:4px 20px 3px 20px; background-color:rgb(190,190,190); /*background-color:rgb(137,170,214)/*For blue background*/; font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:150%;}
+
+.main-navigation h1 {clear:both; margin:30px 0 20px 0; padding:4px 20px 3px 20px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:150%;}
+
+
+.main {clear:both; width:954px; padding-bottom:30px; border-left:solid 3px rgb(175,175,175); border-right:solid 3px rgb(175,175,175); background:transparent url(../img/bg_main.gif) top left repeat-y;}
+
+.nav3-grid {width:199px; border-bottom:solid 1px rgb(200,200,200);}
+.nav3-grid dt a, .nav dd a3-grid dt a:visited {display:block; min-height:2.0em /*Non-IE6*/; height:auto !important; height:2.0em /*IE6*/; line-height:2.0em; padding:0px 10px 0px 20px;  border-top: solid 1px rgb(200,200,200); text-decoration:none; color:rgb(70,122,167); font-weight:bold; font-size:120%;}
+.nav3-grid dd a, .nav3-grid:visited {display:block; min-height:1.7em /*Non-IE6*/; height:auto !important; height:1.7em /*IE6*/; line-height:1.7em; padding:0px 10px 0px 40px; border:none; font-weight:normal; text-decoration:none; color:rgb(70,122,167); font-size:120%;}
+.nav3-grid dt a:hover, .nav3-grid dd a:hover {background-color:rgb(225,225,225); /*background-color:rgb(143,174,215) /*For blue background*/; color:rgb(42,90,138); text-decoration:none;}
